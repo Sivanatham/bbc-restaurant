@@ -1,0 +1,978 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    color: white;
+}
+body{
+    background-image:url(northback.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Yellow\ Ginger.ttf);
+}
+@font-face {
+    font-family: aromatic;
+    src: url(aromatic.ttf);
+}
+@font-face {
+    font-family:beauty;
+    src: url(beauty.ttf);
+}
+@font-face {
+    font-family: button;
+    src: url(button.ttf);
+}
+@font-face {
+    font-family: para;
+    src: url(para.ttf);
+}
+.header{
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0, 0,0,0.5);
+    display: flex;
+    justify-content:left;
+    gap: 80px;
+    align-items:center;
+
+}
+.ni{
+    font-size: 50px;
+    text-align: center;
+    font-family:myFirstFont;
+    position: absolute;
+    right:250px;
+}
+.logo{
+    margin-left: 150px;
+    border: none;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 8px;
+}
+.header.sticky{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position:sticky;
+    
+}
+.northcontent{
+    position: relative;
+    top: 20px;
+    margin-left: 140px;
+    width: 1020px;
+    height: 270px;
+    /* border: 2px solid white; */
+    background-color: rgba(0, 0,0,0.8);
+    font-size: 24px;
+    line-height: 34px;
+}
+.menu{
+    position: relative;
+    top: 50px;
+    margin-left: 90px;
+    width:1100px;
+    height: 1700px;
+    border: 2px solid white;
+    background-color: rgba(0, 0,0,0.5);
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: aromatic;
+    letter-spacing: 5px;
+}
+img{
+    border: 2px double white ;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 80px;
+    position: absolute;
+    top: 100px;
+}
+h3{ font-size: 40px;
+    text-align: center;
+}
+.pan{
+    position: absolute;
+    top:100px;
+    left: 320px;
+    font-family:para;
+}
+.p1{ 
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+    left: 320px;
+
+}
+.price1{
+    font-size:20px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+button:active{
+    cursor: pointer;
+}
+.b1{
+    position: absolute;
+    top: 150px;
+    right:300px;
+}
+.b2{
+    position: absolute;
+    top: 150px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b2:hover{
+    background-color:white;
+    color:black;
+}
+img{
+    border: 2px double white ;
+    border-radius: 20px;
+    width: 200px;
+    height: 150px;
+    margin-left: 80px;
+    position: absolute;
+    top: 100px;
+}
+h3{ font-size: 40px;
+    text-align: center;
+}
+.ci{
+    position: absolute;
+    top: 300px;
+}
+.cha{
+    position: absolute;
+    top:300px;
+    left: 320px;
+    font-family:para;
+}
+.p2{ 
+    font-size: 20px;
+    position: absolute;
+    top: 360px;
+    left: 320px;
+
+}
+.price2{
+    font-size:20px;
+    position: absolute;
+    top: 410px;
+    left: 320px;
+}
+.b3{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b3:hover{
+    background-color:black;
+    color:white;
+}
+.b3:active{
+    cursor: pointer;
+}
+.b4{
+    position: absolute;
+    top: 350px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b4:hover{
+    background-color:white;
+    color:black;
+}
+.mas{
+    position: absolute;
+    top:500px;
+    left: 320px;
+    font-family: para;
+}
+.mi{
+    position: absolute;
+    top: 500px;
+}
+
+.p3{ 
+    font-size: 20px;
+    position: absolute;
+    top: 560px;
+    left: 320px;
+
+}
+.price3{
+    font-size:20px;
+    position: absolute;
+    top: 610px;
+    left: 320px;
+}
+.b5{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 550px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b5:hover{
+    background-color:black;
+    color:white;
+}
+.b5:active{
+    cursor: pointer;
+}
+.b6{
+    position: absolute;
+    top: 550px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b6:hover{
+    background-color:white;
+    color:black;
+}
+.pam{
+    position: absolute;
+    top:700px;
+    left: 320px;
+    font-family: para;
+}
+.pn{
+    position: absolute;
+    top: 700px;
+}
+
+.p4{ 
+    font-size: 20px;
+    position: absolute;
+    top: 760px;
+    left: 320px;
+
+}
+.price4{
+    font-size:20px;
+    position: absolute;
+    top: 810px;
+    left: 320px;
+}
+.b7{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 750px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b7:hover{
+    background-color:black;
+    color:white;
+}
+.b7:active{
+    cursor: pointer;
+}
+.b8{
+    position: absolute;
+    top: 750px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b8:hover{
+    background-color:white;
+    color:black;
+}
+/* .b9{
+    position: absolute;
+    bottom: 30px;
+    left: 500px;
+    width: 100px;
+} */
+.gop{
+    position: absolute;
+    top:900px;
+    left: 320px;
+    font-family: para;
+}
+.go{
+    position: absolute;
+    top: 900px;
+}
+
+.p5{ 
+    font-size: 20px;
+    position: absolute;
+    top: 960px;
+    left: 320px;
+
+}
+.price5{
+    font-size:20px;
+    position: absolute;
+    top: 1010px;
+    left: 320px;
+}
+.b9{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 950px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b9:hover{
+    background-color:black;
+    color:white;
+}
+.b9:active{
+    cursor: pointer;
+}
+.b10{
+    position: absolute;
+    top: 950px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b10:hover{
+    background-color:white;
+    color:black;
+}
+.aal{
+    position: absolute;
+    top:1100px;
+    left: 320px;
+    font-family: para;
+}
+.aa{
+    position: absolute;
+    top:1100px;
+}
+
+.p6{ 
+    font-size: 20px;
+    position: absolute;
+    top: 1160px;
+    left: 320px;
+
+}
+.price6{
+    font-size:20px;
+    position: absolute;
+    top: 1210px;
+    left: 320px;
+}
+.b11{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 1150px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b11:hover{
+    background-color:black;
+    color:white;
+}
+.b11:active{
+    cursor: pointer;
+}
+.b12{
+    position: absolute;
+    top: 1150px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b12:hover{
+    background-color:white;
+    color:black;
+}
+.naan{
+    position: absolute;
+    top:1300px;
+    left: 320px;
+    font-family: para;
+}
+.nan{
+    position: absolute;
+    top:1300px;
+}
+
+.p7{ 
+    font-size: 20px;
+    position: absolute;
+    top: 1360px;
+    left: 320px;
+
+}
+.price7{
+    font-size:20px;
+    position: absolute;
+    top: 1410px;
+    left: 320px;
+}
+.b13{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 1350px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b13:hover{
+    background-color:black;
+    color:white;
+}
+.b13:active{
+    cursor: pointer;
+}
+.b14{
+    position: absolute;
+    top: 1350px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b14:hover{
+    background-color:white;
+    color:black;
+}
+.taa{
+    position: absolute;
+    top:1500px;
+    left: 320px;
+    font-family: para;
+}
+.tan{
+    position: absolute;
+    top:1500px;
+}
+
+.p8{ 
+    font-size: 20px;
+    position: absolute;
+    top: 1560px;
+    left: 320px;
+
+}
+.price8{
+    font-size:20px;
+    position: absolute;
+    top: 1610px;
+    left: 320px;
+}
+.b15{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    top: 1550px;
+    right: 300px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+}
+.b15:hover{
+    background-color:black;
+    color:white;
+}
+.b15:active{
+    cursor: pointer;
+}
+.b16{
+    position: absolute;
+    top: 1550px;
+    right:180px;
+    width: 100px;
+    background-color:black;
+    color:white;
+}
+.b16:hover{
+    background-color:white;
+    color:black;
+}
+
+.copy{
+    position: relative;
+    top: 100px;
+    width:100%;
+    height: 30px;
+}
+.hc{
+    text-align: center;
+    font-size:20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0,0,0.5);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+    .ni{
+        font-size: 35px;
+        position: absolute;
+        right: 80px;
+    }
+    .logo{
+        position: absolute;
+        margin-left: 0px;
+        left:0px;
+    }
+    .northcontent{
+        width: 650px;
+        height: 365px;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .menu{
+        width: 650px;
+        height: 1700px;
+        margin-left: 60px;
+        position:relative;
+        top: 120px;
+    }
+    img{
+        width: 180px;
+        margin-left: 20px;
+    }
+    h3{
+        font-size: 33px;
+    }
+    .pan,.cha,.mas,.pam,.aal,.naan,.taa{
+        position: absolute;
+        left: 250px;
+    }
+    .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8{
+        font-size: 17px;
+        position: absolute;
+        left: 250px;
+    }
+    .price1,.price2,.price3,.price4,.price5,.price6,.price7,.price8{
+        font-size: 20px;
+        position: absolute;
+        left: 250px;
+    }
+    .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12,.b13,.b14,.b15,.b16{
+        width: 80px;
+        height: 25px;
+        font-size: 5px;
+        font-size: 17px;
+        position: absolute;
+        
+    }
+    .b1{
+        position: absolute;
+        top: 200px;
+        right: 250px;
+    }
+    .b3{
+        position: absolute;
+        top: 410px;
+        right: 230px;
+    }
+    .b5{
+        position: absolute;
+        top: 610px;
+        right: 250px;
+    }
+    .b7{
+        position: absolute;
+        top: 810px;
+        right: 250px;
+    }
+    .b9{
+        position: absolute;
+        top: 1010px;
+        right: 240px;
+    }
+    .b11{
+        position: absolute;
+        top: 1210px;
+        right: 240px;
+    }
+    .b13{
+        position: absolute;
+        top: 1410px;
+        right: 240px;
+    }
+    .b15{
+        position: absolute;
+        top: 1610px;
+        right: 240px;
+    }
+    .b2{
+        position: absolute;
+        top: 200px;
+        right: 160px;
+    }
+    .b4{
+        position: absolute;
+        top: 410px;
+        right: 140px;
+    }
+    .b6{
+        position: absolute;
+        top: 610px;
+        right: 150px;
+    }
+    .b8{
+        position: absolute;
+        top: 810px;
+        right: 150px;
+    }
+    .b10{
+        position: absolute;
+        top: 1010px;
+        right: 150px;
+    }
+    .b12{
+        position: absolute;
+        top: 1210px;
+        right: 150px;
+    }
+    .b14{
+        position: absolute;
+        top: 1410px;
+        right: 150px;
+    }
+    .b16{
+        position: absolute;
+        top: 1610px;
+        right: 150px;
+    }
+    .copy{
+        position: relative;
+        top: 200px;
+        bottom: 40px;
+        margin-bottom: 0px;
+
+    }
+    .hc{
+        font-size: 15px;
+        bottom: 0px;
+    }
+}
+
+
+@media (max-width:320px)
+{
+    .ni{
+        font-size: 25px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        text-align:right;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        margin-left:0px;
+        left:0px;
+    }
+    .header{
+        height:140px;
+    }
+    .header.sticky{
+        width: 100%;
+        height:140px;
+        background-color: black;
+        position:sticky;
+        
+    }
+    .northcontent{
+        width: 300px;
+        height: 450px;
+        margin-left: 20px;
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .menu{
+        width: 300px;
+        height: 1700px;
+        margin-left: 10px;
+        position:relative;
+        top: 80px;
+    }
+    .mc{
+        position: absolute;
+        top: 10px;
+        left: 70px;
+        font-size: 30px;
+    }
+    img{
+        width: 100px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    h3{
+        font-size:20px;
+    }
+    .pan,.cha,.mas,.pam,.gop,.aal,.naan,.taa{
+        position: absolute;
+        left: 140px;
+    }
+    /* .p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8{
+        font-size: 17px;
+        position: absolute;
+        top: 10px;
+        left: 140px;
+    } */
+    .p1{
+        font-size: 17px;
+        position: absolute;
+        top: 130px;
+        left: 140px;
+    } 
+    .p2{
+        font-size: 17px;
+        position: absolute;
+        top: 330px;
+        left: 140px;
+    } 
+    .p3{
+        font-size: 17px;
+        position: absolute;
+        top: 530px;
+        left:140px;
+    } 
+    .p4{
+        font-size: 17px;
+        position: absolute;
+        top: 730px;
+        left: 140px;
+    } 
+    .p5{
+        font-size: 17px;
+        position: absolute;
+        top: 930px;
+        left: 140px;
+    } 
+    .p6{
+        font-size: 17px;
+        position: absolute;
+        top: 1130px;
+        left: 140px;
+    } 
+    .p7{
+        font-size: 17px;
+        position: absolute;
+        top: 1330px;
+        left: 140px;
+    } 
+    .p8{
+        font-size: 17px;
+        position: absolute;
+        top: 1530px;
+        left: 140px;
+    } 
+    .price1,.price2,.price3,.price4,.price5,.price6,.price7,.price8{
+        font-size:15px;
+        position: absolute;
+        left:140px;
+    }
+    .price1
+    {
+        position: absolute;
+        top:180px;
+    }
+    .price2
+    {
+        position: absolute;
+        top:380px;
+    }
+    .price3
+    {
+        position: absolute;
+        top:580px;
+    }
+    .price4
+    {
+        position: absolute;
+        top:780px;
+    }
+    .price5
+    {
+        position: absolute;
+        top:980px;
+    }
+    .price6
+    {
+        position: absolute;
+        top:1180px;
+    }
+    .price7
+    {
+        position: absolute;
+        top:1380px;
+    }
+    .price8
+    {
+        position: absolute;
+        top:1580px;
+    }
+
+    .b1,.b2,.b3,.b4,.b5,.b6,.b7,.b8,.b9,.b10,.b11,.b12,.b13,.b14,.b15,.b16{
+        width: 80px;
+        height: 25px;
+        font-size: 5px;
+        font-size: 17px;
+        position: absolute;
+        
+    }
+    .b1{
+        position: absolute;
+        top: 220px;
+        right: 200px;
+    }
+    .b3{
+        position: absolute;
+        top: 430px;
+        right: 200px;
+    }
+    .b5{
+        position: absolute;
+        top: 630px;
+        right: 200px;
+    }
+    .b7{
+        position: absolute;
+        top: 830px;
+        right: 200px;
+    }
+    .b9{
+        position: absolute;
+        top: 1030px;
+        right: 200px;
+    }
+    .b11{
+        position: absolute;
+        top: 1210px;
+        right: 200px;
+    }
+    .b13{
+        position: absolute;
+        top: 1410px;
+        right: 200px;
+    }
+    .b15{
+        position: absolute;
+        top: 1610px;
+        right:200px;
+    }
+    .b2{
+        position: absolute;
+        top: 220px;
+        right: 60px;
+    }
+    .b4{
+        position: absolute;
+        top: 430px;
+        right: 60px;
+    }
+    .b6{
+        position: absolute;
+        top: 630px;
+        right: 60px;
+    }
+    .b8{
+        position: absolute;
+        top: 830px;
+        right: 60px;
+    }
+    .b10{
+        position: absolute;
+        top: 1030px;
+        right: 60px;
+    }
+    .b12{
+        position: absolute;
+        top: 1210px;
+        right: 60px;
+    }
+    .b14{
+        position: absolute;
+        top: 1410px;
+        right: 60px;
+    }
+    .b16{
+        position: absolute;
+        top: 1610px;
+        right: 60px;
+    }
+    .copy{
+        position: relative;
+        top: 100px;
+        bottom:50px;
+        margin-bottom: 0px;
+
+    }
+    .hc{
+        font-size: 15px;
+        bottom: 0px;
+    }
+}

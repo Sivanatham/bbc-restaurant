@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    color: white;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    border: none;
+    background-image: url("backimage.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Yellow\ Ginger.ttf);
+}
+@font-face {
+    font-family: aromatic;
+    src: url(aromatic.ttf);
+}
+@font-face {
+    font-family:beauty;
+    src: url(beauty.ttf);
+}
+@font-face {
+    font-family: button;
+    src: url(button.ttf);
+}
+@font-face {
+    font-family: para;
+    src: url(para.ttf);
+}
+.loginbar{
+    background-color: rgba(0,0,0,0.5);
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+h1{
+    font-family: myFirstFont;
+    text-align: center;
+}
+img{
+    position: absolute;
+    left:150px;
+}
+.usernames{
+    font-size: 25px;
+    position: absolute;
+    top: 250px;
+    font-family: para;
+    left:40px;
+}
+.username{
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid white;
+    background: none;
+    font-family: para;
+    left:180px;
+}
+.pass{
+    font-size: 25px;
+    position: absolute;
+    top: 350px;
+    font-family: para;
+    left:40px;
+}
+.password{
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid white;
+    background: none;
+    font-family: para;
+    left:180px;
+}
+button{
+    width: 80px;
+    height: 50px;
+    border: 2px solid white;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: button;
+    bottom: 20px;
+    left: 220px;
+}
+
+@media (max-width:320px)
+{
+    .loginbar{
+        background-color: rgba(0,0,0,0.5);
+        width:200;
+        height: 500px;
+        position: relative;
+    }
+    h1{
+        font-family: myFirstFont;
+        text-align: center;
+    }
+    img{
+        position: absolute;
+        left:50px;
+    }
+    .usernames{
+        font-size: 23px;
+        position: absolute;
+        top: 250px;
+        font-family: para;
+        left:30px;
+    }
+    .username{
+        font-size: 15px;
+        position: absolute;
+        top: 250px;
+        width: 150px;
+        height: 30px;
+        border: 1px solid white;
+        background: none;
+        font-family: para;
+        left:140px;
+    }
+    .pass{
+        font-size: 23px;
+        position: absolute;
+        top: 350px;
+        font-family: para;
+        left:30px;
+    }
+    .password{
+        font-size: 15px;
+        position: absolute;
+        top: 350px;
+        width: 150px;
+        height: 30px;
+        border: 1px solid white;
+        background: none;
+        font-family: para;
+        left:140px;
+    }
+    button{
+        width: 80px;
+        height: 50px;
+        border: 2px solid white;
+        position: absolute;
+        color: black;
+        font-size: 20px;
+        border-radius: 20px;
+        font-family: button;
+        bottom: 20px;
+        left: 120px;
+    }
+    
+}

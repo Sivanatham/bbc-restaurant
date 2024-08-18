@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="loginbar">
+    <h1 >BBC Restaurant</h1>
+    <img src="logo1.png" width="200px" height="180px" alt="">
+    <form onsubmit="return validation()" action="index.html">
+        <label for="first" class="usernames">
+              Username:
+        </label>
+        <input class="username" type="text" 
+               id="first" 
+               name="first" 
+               placeholder="Enter your Username" required>
+    
+        <label for="password" class="pass">
+              Password: 
+        </label>
+        <input class="password" type="password"
+               id="password" 
+               name="password"
+               placeholder="Enter your Password" required>
+    
+        <div class="wrap">
+              <button class="login" type="submit">
+                    Login
+              </button>
+        </div>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
